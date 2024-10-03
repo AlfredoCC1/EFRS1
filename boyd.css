@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.menuEncabesado{
+    background-color: aqua;
+    width: auto;
+    height: 300px;
+}
+
+
+
+/* de aca para abajo esta esta puramar,asercay aromas7 lo p`rimero de la pagina */
+
+.cebiche{
+    
+    width: auto;
+    height: 800px;
+    
+    
+
+}
+
+.puramar{
+
+    display: grid;
+    grid-template-columns:1fr 1fr ;
+    margin-left: 350px;
+    margin-right: 350px;
+    margin-top: 20px;
+    gap: 20px;
+    
+    
+    
+}
+
+
+
+.aserca{
+  
+    width: auto;
+    height: 280px;
+    text-align: justify;
+    padding-top: 40px;
+    
+    
+}
+
+
+.aromas7{
+    
+    width: auto;
+    height: 320px;
+}
+.aromas7 img{
+    width: auto;
+    height: 325px;
+    
+    
+}
