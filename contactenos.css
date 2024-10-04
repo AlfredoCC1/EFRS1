@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(216, 129, 14);
+    width: auto;
+    height: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+main{
+   
+    width: auto;
+    height: auto;
+}
+
+.seccionuno{
+   
+}
+/*----------------------textoopuromar--------------------------*/
+.textopuramar{
+    
+    text-align: center;
+    width: auto;
+    height: 130px;
+    padding-top: 29px;
+}
+.textopuramar h2{
+    color: #ff8210;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.textopuramar h1{
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size:  35PX;
+}
+.textopuramar h4{
+    font-family: sans-serif;
+    font-size: 15px;
+}
+    
+
+
+
+
+
+/*-------------------------------------------------------contenedor rayaas y imagen*/
+.rayacontainer{
+   
+    display: flex;
+    justify-content: center;
+
+}
+/*-----------------imagend de la raya---------------*/
+.rayacontainer img{
+    width: 90px;
+    height: 90px;
+}
+/*------------------------raya----------------------*/
+.raya{
+    background-color: #ff8210;
+    height: 5px;
+    width: 630px;
+    margin-top: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.secciondos{
+    
+    width: auto;
+    height: 480px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    
+}
+
+.formularioseccion{
+    display: grid;
+    
+    width: auto;
+    height: auto;
+    
+    margin-left: 550px;
+    margin-right: 550px;
+    
+
+    grid-template-areas: 
+    "areauno areauno areauno"
+    "areados areados areatres"
+    "areacuatro areacuatro areacuatro";
+    gap: 20px;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    
+
+    
+
+
+}
+
+.inputuno{
+    grid-area: areauno;
+    width: auto;
+    height: 47px;
+    
+}
+.inputdos{
+    grid-area: areados;
+    width: auto;
+    height: 47px;
+    
+    
+}
+.inputtres{
+    grid-area: areatres;
+    width: auto;
+    height: 47px;
+    
+}
+.inputcuatro{
+    grid-area: areacuatro;
+    width: auto;
+    height: 260PX;
+    resize: none;
+    
+}
+.elboton{
+    
+    margin-top: 20px;
+    width: auto;
+    height: 55px;
+}
+.elboton button{
+    width: 180px;
+    height: 100%;
+    margin-left: 1172px;
+    background-color: #ff8210;
+    color:#fffcfa;
+    font-size: 20px;
+    cursor: pointer;
+    
+    
+}
+
+
+
+
+.inputuno::placeholder,
+.inputdos::placeholder,
+.inputtres::placeholder,
+.inputcuatro::placeholder {
+    font-weight: bold;  
+    font-size: 18px;     
+    color: #070707;  
+    font-family: sans-serif;       
+}
+
+input
+{
+    font-size: 18px;
+    padding: 19px; 
+    font-family: sans-serif;
+    border: 1px solid #A9A9A9;
+    border-radius: 4px; 
+    font-weight: bold; 
+}
+
+
+.inputcuatro {
+    font-size: 18px;
+    padding: 10px; 
+    font-family: sans-serif;
+    border: 1px solid #A9A9A9;
+    border-radius: 4px; 
+    font-weight: bold; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: slategray;
+    width: auto;
+    height: 250px;
+}
