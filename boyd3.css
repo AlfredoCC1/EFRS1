@@ -1,0 +1,29 @@
+.ubicacionesydemas{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: auto;
+    height: 220px;
+    margin-top: 30px;
+    background: rgba(204, 202, 202, 0.555);
+}
+
+.ubica1,.ubica2,.ubica3{
+    
+    text-align: center;
+    color:#38B6FF;
+    font-family: cursive;
+    padding-top: 20px;
+
+}
+.ubica1 button{
+    width: 180px;
+    height: 45px;
+    margin-top: 10px;
+    font-size: 15px;
+    background-color: #38B6FF;
+    border: none;
+    color:     aliceblue;
+    font-family: cursive;
+    font-weight: bold;
+}
+
