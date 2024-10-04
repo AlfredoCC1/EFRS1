@@ -277,10 +277,10 @@ width: 45%;
 .videos-seccion {
     display: flex;
     justify-content: space-between;
-    padding: 50px; /* Ajusta el padding para pantallas grandes */
+    padding: 50px; 
     background-color: aqua;
-    gap: 30px; /* Espacio mayor entre los elementos */
-    width: 100%; /* Ocupará todo el ancho disponible */
+    gap: 30px;
+    width: 100%; 
 }
 .plato-principal {
     flex: 1.5; /* Ajusta la proporción que quieres para esta sección en pantallas grandes */
@@ -292,7 +292,7 @@ width: 45%;
     
     border-radius: 50%;
     max-width: 100%; /* Hace que la imagen se adapte al tamaño del contenedor */
-    height: auto; /* Mantiene las proporciones */
+    height: auto; 
 }
 
 .videos-galeria {
@@ -334,9 +334,7 @@ width: 45%;
     font-family: 'Brush Script MT', cursive;
 }
 
-/*contenido de los video que faltan colocar -------------------*/
-/* Media Query para pantallas pequeñas */
-/* Para pantallas medianas, como tablets (entre 768px y 1024px) */
+
 @media (max-width: 1024px) {
     .videos-seccion {
         padding: 40px; /* Reduce el padding para pantallas medianas */
@@ -350,4 +348,63 @@ width: 45%;
         flex: 2; /* Ajusta el tamaño de la galería */
         grid-template-columns: repeat(2, 1fr); /* Cambia a dos columnas */
     }
+}
+
+.quinta-seccion {
+    
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.contenidosrv02{
+    text-align: center;
+}
+.contsepara{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.contsepara img{
+    height: 90px;
+    width: 90px;
+}
+.linesexta, .linesetima {
+    background-color: #38B6FF;
+    height: 7px;
+    width: 45%;
+}
+
+.contensevicios{
+    display: flex;
+    justify-content: space-between; 
+    justify-content: center;
+    margin: 30px;
+    
+}
+.textservicio p{
+    margin: 39px;
+    font-size: 25px;
+}
+
+.distruta{
+    font-size: 30px !important;
+    font-family: 'Brush Script MT', cursive;
+    margin: 10px;
+    color:  #38B6FF;
+}
+
+.pedir{
+    font-size: 50px !important;
+    font-family: 'Brush Script MT', cursive;
+    margin: 10px;
+    color:  #38B6FF;
+    
+}
+.contensevicios button {
+    height: 70px;
+    width: 300px;
+    margin-left: 40px;
+}
+
+.contenidosrv02 p , h1 {
+    font-family: 'Brush Script MT', cursive;
 }
