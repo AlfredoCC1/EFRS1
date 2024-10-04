@@ -102,6 +102,19 @@ width: 45%;
     background-color: #ff8210;
     border: none;
 }
+
+.texto01 button:hover {
+    background-color: #38B6FF;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
 .texto01 button a{
     text-decoration: none;
     color: white;
@@ -209,6 +222,13 @@ width: 45%;
     background-color: #38B6FF;
     border: none;
     padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.boton-menu img {
+    height: 27px;
+    width: 27px;
 }
 
 .boton-menu a {
@@ -383,6 +403,11 @@ width: 45%;
 .textservicio p{
     margin: 39px;
     font-size: 25px;
+    
+}
+.textservicio img{
+    height: 30px;
+    width: 30px;
 }
 
 .distruta{
@@ -400,11 +425,39 @@ width: 45%;
     
 }
 .contensevicios button {
-    height: 70px;
+    height: 60px;
     width: 300px;
     margin-left: 40px;
+    background-color: #38B6FF;
+    border: none;
+    font-size: 40px;
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Brush Script MT', cursive;
+   
+    
+}
+.contensevicios button a{
+color: white;
+text-decoration: none;
+}
+.textservicio button:hover {
+    background-color: #ff8210;
+    cursor: pointer;
 }
 
 .contenidosrv02 p , h1 {
     font-family: 'Brush Script MT', cursive;
+}
+.altacalidad{
+    color: #38B6FF;
+    font-size: 40px;
+}
+.plantas{
+    font-size: 60px;
+}
+.delicioso{
+    font-size: 15px;
 }
