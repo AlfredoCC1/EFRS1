@@ -236,6 +236,7 @@ width: 45%;
     text-align: center;
     padding: 50px 15%;
     
+    
 }
 
 .texto03 h2 {
@@ -244,9 +245,10 @@ width: 45%;
 }
 .videos-galeria video {
     width: 100%; /* Asegura que los videos ocupen todo el ancho disponible */
-    max-width: 150px; /* Limita el ancho máximo */
-    height: auto; /* Mantiene las proporciones */
-    margin-top: 20px;
+    max-width: 192px; /* Limita el ancho máximo */
+    height: 60%; /* Mantiene las proporciones */
+    
+    margin-top: 10px;
     
 }
 
@@ -290,43 +292,31 @@ width: 45%;
 .videos-seccion {
     display: flex;
     justify-content: space-between;
-    padding: 50px; 
-    
+    padding: 50px;
     gap: 30px;
-    width: 100%; 
+    width: 100%;
 }
 .plato-principal {
-    flex: 1.5; /* Ajusta la proporción que quieres para esta sección en pantallas grandes */
+    flex: 1.5;
     text-align: center;
     background-color: #ff8210;
-    
+    overflow: hidden; /* Asegura que el contenido no se desborde */
+    height: 592px;
 }
 .plato-principal img {
-    
     border-radius: 50%;
     max-width: 100%; /* Hace que la imagen se adapte al tamaño del contenedor */
-    height: auto; 
+    height: 70%;
 }
 
-.videos-galeria {
-    display: grid;
-    grid-template-columns: repeat(3, 3fr); /* Tres columnas por defecto */
-    gap: 10px; 
-    justify-items: center;
-    padding: px;
-    flex: 2; /* Ocupará proporcionalmente 2 partes del ancho */
+.videoprincipal video, .videos-galeria video {
+    width: 100%; /* Asegura que los videos ocupen todo el ancho del contenedor */
+    height: 100%; /* Mantiene la altura automática */
+    object-fit: cover; /* Ajusta el contenido del video para que no se salga */
+    overflow: hidden;
 }
-.videos-galeria video{
-    height: 180px;
-    width: 200px;
-}
-.videos-galeria img {
-    background-color: aqua;
-    width: 100%; /* Asegura que las imágenes ocupen todo el ancho disponible */
-    max-width: 150px; /* Limita el ancho máximo */
-    height: auto; /* Mantiene las proporciones */
-    margin-top: 20px;
-}
+
+
 .videoprincipal {
     background-color: rgba(255, 228, 196, 0.747);
     width: 100%;
@@ -336,6 +326,7 @@ width: 45%;
 .separar {
     background-color: #4410ff;
     width: 50%;
+    height: 100%;
     display: flex;
     flex-direction: column; /* Hace que el contenido esté en una columna */
     
@@ -353,18 +344,9 @@ width: 45%;
 }
 
 
-@media (max-width: 1024px) {
-    .videos-seccion {
-        padding: 40px; /* Reduce el padding para pantallas medianas */
-    }
-
-    .plato-principal {
-        flex: 1; /* Menor espacio para la imagen principal */
-    }
-
+@media (min-width: 1024px) {
     .videos-galeria {
-        flex: 2; /* Ajusta el tamaño de la galería */
-        grid-template-columns: repeat(2, 1fr); /* Cambia a dos columnas */
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Mayor tamaño en pantallas grandes */
     }
 }
 
