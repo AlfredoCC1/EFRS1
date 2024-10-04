@@ -41,7 +41,11 @@ header::before {
 
 /* Logo a la izquierda */
 .logo-contenedor {
+    
     flex: 1; /* Ocupa el 33% del espacio */
+}
+.logo-contenedor  img{
+    margin-left: 50%;
 }
 
 .logo-principal {
@@ -92,7 +96,9 @@ header::before {
     justify-content: flex-end;
     gap: 80px;
     z-index: 3;
+    
 }
+
 .boton{
     border:  solid 2px white;
     display: flex;
@@ -108,6 +114,8 @@ header::before {
     width: 40px;
     height: 40px;
     cursor: pointer;
+    margin-right: 250px;
+    
 }
 
 /* Barra de navegación fija en la parte superior */
