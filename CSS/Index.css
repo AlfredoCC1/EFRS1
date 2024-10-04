@@ -324,7 +324,7 @@ width: 45%;
     text-align: center; /* Centra el contenido */
 }
 .separar {
-    background-color: #4410ff;
+    background-color: #4410ff00;
     width: 50%;
     height: 100%;
     display: flex;
