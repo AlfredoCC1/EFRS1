@@ -16,8 +16,9 @@
 .cebiche{
     
     width: auto;
-    height: 800px;
+    height: 1200px;
     
+    padding-top: 100px;
     
 
 }
@@ -26,9 +27,10 @@
 
     display: grid;
     grid-template-columns:1fr 1fr ;
-    margin-left: 350px;
-    margin-right: 350px;
-    margin-top: 20px;
+  
+    margin-left: 300px;
+    margin-right: 300px;
+    
     gap: 20px;
     
     
@@ -40,9 +42,10 @@
 .aserca{
   
     width: auto;
-    height: 280px;
+    height: 385px;
     text-align: justify;
     padding-top: 40px;
+
     
     
 }
@@ -51,11 +54,12 @@
 .aromas7{
     
     width: auto;
-    height: 320px;
+    height: 425px;
+  
 }
 .aromas7 img{
     width: auto;
-    height: 325px;
+    height: 425px;
     
     
 }
@@ -64,12 +68,14 @@
 .nuestramision{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows:250px 250px  ;
+    grid-template-rows:300px 320px  ;
     grid-template-areas: "hijo1 hijo2 hijo2 "
                          "hijo1 hijo3 hijo4";
 
-    margin-top: 30px;
+    margin-top: 50px;
     background: linear-gradient(to bottom, white, #38B6FF);
+    width: auto;
+    height: 700px;
 
 
 }
@@ -78,35 +84,53 @@
 .unoNuestra{
     
     grid-area:hijo1 ;
+    width: auto;
+    height: 700px;
+    
+    
     
     
 }
 .unoNuestra img{
     width: auto;
-    height: 500px;
-    margin-left: 250px;
+    height: 700px;
+    margin-left: 50px;
+    
+   
+
     
 }
 .tresNuestra img ,.cuatroNuestra img{
  width: 450px;
  height: auto;
  margin-left: 80px;
+ 
+ 
 }
 .dosNuestra{
     
     grid-area: hijo2;
     text-align: center;
-    padding-top: 110px;
+    margin-top: 100px;
+    height: 340px;
+    
+    
 }
 
 .tresNuestra{
     
     grid-area: hijo3;
+    margin-top: 100px;
+    width: auto;
+    height: 260px;
 }
 
 .cuatroNuestra{
     
     grid-area: hijo4;
+    margin-top: 100px;
+    width: auto;
+    height: 260px;
 }
 
 
