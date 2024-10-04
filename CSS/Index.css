@@ -235,12 +235,25 @@ width: 45%;
 .cuarta-seccion {
     text-align: center;
     padding: 50px 15%;
-    background-color: #fff;
+    
 }
 
 .texto03 h2 {
     color: #ff8210;
     font-size: 28px;
+}
+.videos-galeria video {
+    width: 100%; /* Asegura que los videos ocupen todo el ancho disponible */
+    max-width: 150px; /* Limita el ancho máximo */
+    height: auto; /* Mantiene las proporciones */
+    margin-top: 20px;
+    
+}
+
+.videoprincipal video {
+    width: 100%;
+    max-width: 100%; 
+    height:auto;
 }
 
 .texto03 h1 {
@@ -278,7 +291,7 @@ width: 45%;
     display: flex;
     justify-content: space-between;
     padding: 50px; 
-    background-color: aqua;
+    
     gap: 30px;
     width: 100%; 
 }
@@ -297,11 +310,15 @@ width: 45%;
 
 .videos-galeria {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Tres columnas por defecto */
-    gap: 20px; 
+    grid-template-columns: repeat(3, 3fr); /* Tres columnas por defecto */
+    gap: 10px; 
     justify-items: center;
-    padding: 20px;
+    padding: px;
     flex: 2; /* Ocupará proporcionalmente 2 partes del ancho */
+}
+.videos-galeria video{
+    height: 180px;
+    width: 200px;
 }
 .videos-galeria img {
     background-color: aqua;
@@ -321,7 +338,8 @@ width: 45%;
     width: 50%;
     display: flex;
     flex-direction: column; /* Hace que el contenido esté en una columna */
-    align-items: center; /* Centra el contenido */
+    
+
 }
 .echale{
     color: rgb(255, 255, 255);
