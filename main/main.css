@@ -1,0 +1,353 @@
+body {
+    font-family: Arial, Helvetica, sans-serif; /* Aplica esta fuente a todo el sitio */
+}
+.primera{
+background-color: rgba(212, 233, 119, 0);
+margin-left: 15%;
+margin-right: 15%;
+height: 150px;
+}
+
+
+.bienvenida {
+    text-align: center;
+}
+/*-------------------------*/
+.Bienvenido{
+    font-size: 35px;
+    color: #38B6FF;
+    font-family: 'Brush Script MT', cursive;
+}
+.Puramar{
+    font-size: 55px;
+    font-family: 'Brush Script MT', cursive;
+}
+.pdj{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    margin-top: 15px;
+}
+.pdj img{
+    height: 90px;
+    width: 90px;
+}
+
+.linea {
+    background-color: #ff8210;
+    height: 5px;
+    width: 230px;
+    margin-top: -20px;
+}
+
+.line01{
+background-color:#38B6FF;
+height: 7px;
+width: 45%;
+}
+.line02{
+    background-color:#38B6FF;
+    height: 7px;
+    width: 45%;
+}
+
+.segunda {
+    display: flex; /* Activa Flexbox */
+    justify-content: space-between; /* Asegura que los elementos estén alineados a los extremos */
+    align-items: center; /* Alinea los elementos verticalmente al centro */
+    padding: 20px;
+    margin-left: 15%;
+    margin-right: 15%;
+    gap: 60px; /* Añade un espacio entre los elementos */
+}
+
+
+
+.texto01 {
+    width: 50%; /* Toma el 50% del ancho del contenedor */
+    display: grid;
+    gap: 20px;
+}
+.txt01{
+    font-size: 35px;
+}
+.txt02{
+    font-size: 40px;
+}
+.nosvemos{
+    font-size: 30px;
+}
+.texto01 p{
+    color: #38B6FF;
+    font-family: 'Brush Script MT', cursive;
+    
+}
+.texto01 h1{
+    color: #38B6FF;
+    font-family: 'Brush Script MT', cursive;
+}
+.contenidotxt{
+    color: black !important;
+    text-align: justify; /* Justifica el texto */
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif !important;
+   
+    
+}
+
+
+.texto01 button{
+    height: 58px;
+    width: 200px;
+    background-color: #ff8210;
+    border: none;
+}
+.texto01 button a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-family: 'Brush Script MT', cursive;
+    
+}
+.img01 {
+    width: 50%; /* Toma el 50% del ancho del contenedor */
+    text-align: right; /* Alinea la imagen a la derecha */
+}
+
+.img01 img {
+    max-width: 100%; /* La imagen se adapta al tamaño del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
+
+/*.linea {
+    background-color: #ff8210;
+    width: 150px;
+    height: 7.5px;
+    
+   
+}*/
+
+/*ACA ES DONDE TERMINA LA PRIMERA SECCION DE  BIENVENIDO A PURAMAR *---------------------------------------------------------------------------------------------------/
+/* Tercera Sección - Nuestro Menú */
+
+.tercera {
+    text-align: center;
+    padding: 50px 15%;
+}
+
+.texto02 h2 {
+    color: #ff8210;
+    font-size: 28px;
+}
+
+.texto02 .subtitulo {
+    font-family: 'Brush Script MT', cursive;
+    color: #38B6FF;
+    font-size: 36px;
+    margin: 10px 0;
+}
+.pdjj{
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    margin-top: 15px;
+}
+.pdjj img{
+    height: 90px;
+    width: 90px;
+}
+.line03{
+background-color:#ff8210;
+height: 7px;
+width: 45%;
+}
+.line04{
+    background-color:#ff8210;
+    height: 7px;
+    width: 45%;
+}
+
+.texto02 .descripcion {
+    font-style: italic;
+    color: gray;
+}
+
+
+
+.menu-seccion {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.imagen-plato img {
+    max-width: 100%;
+    height: auto;
+}
+
+.info-menu {
+    width: 50%;
+    text-align: left;
+}
+
+.info-menu h3 {
+    color: #ff8210;
+    font-size: 40px;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.info-menu p {
+    color: black;
+    font-size: 16px;
+    line-height: 1.5;
+    text-align: justify; 
+}
+
+.boton-menu {
+    margin-top: 20px;
+    background-color: #38B6FF;
+    border: none;
+    padding: 10px 20px;
+}
+
+.boton-menu a {
+    color: white;
+    font-size: 28px;
+    text-decoration: none;
+    font-family: 'Brush Script MT', cursive;
+}
+
+.boton-menu:hover {
+    background-color: #ff8210;
+    cursor: pointer;
+}
+.lineaaa {
+    background-color: #38B6FF;
+    height: 5px;
+    width: 220px;
+    
+}
+
+
+
+/* Cuarta Sección - Experiencia Gastronómica --------------------------------------------------------------------------------*/
+.cuarta-seccion {
+    text-align: center;
+    padding: 50px 15%;
+    background-color: #fff;
+}
+
+.texto03 h2 {
+    color: #ff8210;
+    font-size: 28px;
+}
+
+.texto03 h1 {
+    font-family: 'Brush Script MT', cursive;
+    color: #38B6FF;
+    font-size: 36px;
+}
+
+.subtitulo-cuarta {
+    font-style: italic;
+    color: gray;
+    margin-top: 10px;
+}
+
+.pdjj-cuarta {
+    display: flex;
+    align-items: center;
+    justify-content: center;  
+    margin-top: 15px;
+}
+
+.pdjj-cuarta img {
+    height: 90px;
+    width: 90px;
+}
+
+.line05, .line06 {
+    background-color: #ff8210;
+    height: 7px;
+    width: 45%;
+}
+
+/*contenido de los video que faltan colocar ----------------------*/
+.videos-seccion {
+    display: flex;
+    justify-content: space-between;
+    padding: 50px; /* Ajusta el padding para pantallas grandes */
+    background-color: aqua;
+    gap: 30px; /* Espacio mayor entre los elementos */
+    width: 100%; /* Ocupará todo el ancho disponible */
+}
+.plato-principal {
+    flex: 1.5; /* Ajusta la proporción que quieres para esta sección en pantallas grandes */
+    text-align: center;
+    background-color: #ff8210;
+    
+}
+.plato-principal img {
+    
+    border-radius: 50%;
+    max-width: 100%; /* Hace que la imagen se adapte al tamaño del contenedor */
+    height: auto; /* Mantiene las proporciones */
+}
+
+.videos-galeria {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnas por defecto */
+    gap: 20px; 
+    justify-items: center;
+    padding: 20px;
+    flex: 2; /* Ocupará proporcionalmente 2 partes del ancho */
+}
+.videos-galeria img {
+    background-color: aqua;
+    width: 100%; /* Asegura que las imágenes ocupen todo el ancho disponible */
+    max-width: 150px; /* Limita el ancho máximo */
+    height: auto; /* Mantiene las proporciones */
+    margin-top: 20px;
+}
+.videoprincipal {
+    background-color: rgba(255, 228, 196, 0.747);
+    width: 100%;
+    height: 50%; /* Mantén la altura automática */
+    text-align: center; /* Centra el contenido */
+}
+.separar {
+    background-color: #4410ff;
+    width: 50%;
+    display: flex;
+    flex-direction: column; /* Hace que el contenido esté en una columna */
+    align-items: center; /* Centra el contenido */
+}
+.echale{
+    color: rgb(255, 255, 255);
+    font-size: 30px;
+    font-family: 'Brush Script MT', cursive;
+}
+.ultimos{
+    color: white;
+    font-size: 60px;
+    font-family: 'Brush Script MT', cursive;
+}
+
+/*contenido de los video que faltan colocar -------------------*/
+/* Media Query para pantallas pequeñas */
+/* Para pantallas medianas, como tablets (entre 768px y 1024px) */
+@media (max-width: 1024px) {
+    .videos-seccion {
+        padding: 40px; /* Reduce el padding para pantallas medianas */
+    }
+
+    .plato-principal {
+        flex: 1; /* Menor espacio para la imagen principal */
+    }
+
+    .videos-galeria {
+        flex: 2; /* Ajusta el tamaño de la galería */
+        grid-template-columns: repeat(2, 1fr); /* Cambia a dos columnas */
+    }
+}
