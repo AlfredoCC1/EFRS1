@@ -1,0 +1,57 @@
+/* Main content styles */
+.partes {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+}
+
+/* Left and right sections */
+.izquierdo, .derecho {
+    position: absolute;
+    top: 0;
+    width: 50%;
+    height: 100%;
+}
+
+/* Left section */
+.izquierdo {
+    left: 0;
+    background-color: rgba(241, 18, 18, 0.5); /* Fondo oscuro semitransparente */
+}
+
+/* Right section */
+.derecho {
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+}
+
+/* Menu image */
+.imagencarta {
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1; /* Para que la imagen quede por detrás del contenido del header */
+}
+
+.imagencarta img {
+    max-width: 100%;
+    height: auto;
+    z-index: 1;
+}
+
+/* Header adjustments */
+header {
+    z-index: 2; /* Asegúrate de que el header esté sobre la imagen y las secciones de fondo */
+    position: relative;
+}
+
+/* Navigation styling */
+.inicio {
+    z-index: 3; /* Debe estar por encima del header y la imagen */
+}
+
+/* Add scrolled class background change */
+.inicio.scrolled {
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro cuando haces scroll */
+}
