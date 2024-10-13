@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="Contactenos.css">
+    <link rel="stylesheet" href="Header/Header.css">
     <script src="Header/Header.js"></script>
     <title>contactenos Pura Mar</title>
 </head>
@@ -15,8 +16,8 @@
             <img class="logo-nav" src="/Img/LogoPuraMar.png" alt="Logo Nav">
             <a href="Index.html">Inicio</a>
             <a href="Nosotros.html">Sobre nosotros</a>
-            <a href="#">Nuestro Menú</a>
-            <a href="contactenos.html">Contáctenos</a>
+            <a href="NuestroMenu.html">Nuestro Menú</a>
+            <a href="Contactenos.html">Contáctenos</a>
             <div class="botonn">
                 <a href="#" class="boton">
                     <img src="/Img/Icon/IconTenedores.png" alt="Orden en Línea"> Orden en Línea
@@ -24,17 +25,20 @@
             </div>
         </nav>
 
-
         <!-- Contenedor principal dividido en tres columnas -->
         <div class="contenido-flex">
+            <!-- Logo grande a la izquierda -->
+            <div class="logo-contenedor">
+                <img class="logo-principal" src="/Img/LogoPuraMar.png" alt="Logo Principal">
+            </div>
+            
             <!-- Texto en el centro -->
             <div class="texto">
-                 <img class="logo-principal" src="/Img/LogoPuraMar.png" alt="Logo Principal">
-                <p  id="qui">¿Quieres saber mas?</p>
-                <p id="contac">CONTACTENOS</p>
-                <P id="pur" >Pura</P>
-                
-                
+           
+                <p>Cocina, Sabor y Tradición</p>
+                <button>
+                    <a href="#">Nuestro Menú</a>
+                </button>
             </div>
 
             <!-- Íconos sociales a la derecha -->
@@ -44,9 +48,6 @@
                 <a href="#"><img src="/Img/Icon/IconWhatsApp.png" alt="WhatsApp"></a>
             </div>
         </div>
-
-       
-
     </header>
 
 
@@ -90,7 +91,9 @@
                 
             </div>
 
-            <div class="elboton"><button type="submit" >Enviar Mensaje</button></div>
+            <div class="elboton">
+                <button type="submit" >Enviar Mensaje</button>
+            </div>
 
 
         </section>
