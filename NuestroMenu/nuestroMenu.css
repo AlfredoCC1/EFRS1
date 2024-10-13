@@ -1,57 +1,62 @@
 /* Main content styles */
 .partes {
     position: relative;
-    height: 100vh;
     width: 100%;
+    display: flex;
+    height: calc(100vh - 500px); /* Ajuste para que ocupe el espacio restante del viewport */
+    margin-top: 0;
 }
 
 /* Left and right sections */
 .izquierdo, .derecho {
-    position: absolute;
-    top: 0;
-    width: 50%;
+    flex: 1; /* Ocupan la mitad del ancho */
     height: 100%;
+    top: 0;
 }
 
 /* Left section */
 .izquierdo {
-    left: 0;
-    background-color: rgba(241, 18, 18, 0.5); /* Fondo oscuro semitransparente */
+    background-color: rgba(241, 18, 18, 0.973); /* Fondo de la izquierda */
 }
 
 /* Right section */
 .derecho {
-    right: 0;
-    background-color: rgba(0, 0, 0, 0.5); /* Fondo oscuro semitransparente */
+    background-color: rgba(22, 18, 241, 0.973); /* Fondo de la derecha */
 }
 
 /* Menu image */
 .imagencarta {
-    margin-top: 100px;
+    position: absolute;
+    top: 40px; /* Espaciado de 40px desde la parte superior */
+    bottom: 40px; /* Espaciado de 40px desde la parte inferior */
+    left: 0;
+    right: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 1; /* Para que la imagen quede por detrás del contenido del header */
+    z-index: 1;
 }
 
 .imagencarta img {
     max-width: 100%;
+    max-height: calc(100% - 80px); /* Para que la imagen esté alejada 40px de arriba y abajo */
     height: auto;
     z-index: 1;
 }
 
 /* Header adjustments */
 header {
-    z-index: 2; /* Asegúrate de que el header esté sobre la imagen y las secciones de fondo */
+    z-index: 2;
     position: relative;
 }
 
 /* Navigation styling */
 .inicio {
-    z-index: 3; /* Debe estar por encima del header y la imagen */
+    z-index: 3;
 }
 
 /* Add scrolled class background change */
 .inicio.scrolled {
-    background-color: rgba(0, 0, 0, 0.8); /* Fondo oscuro cuando haces scroll */
+    background-color: rgba(0, 0, 0, 0.8);
 }
+
