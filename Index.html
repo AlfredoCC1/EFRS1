@@ -6,6 +6,9 @@
     <link rel="stylesheet" href="/CSS/Index.css">
     <link rel="stylesheet" href="/Header/Header.css">
     <script src="/Header/Header.js"></script>
+    <link rel="stylesheet" href="/CSS/PrototipoLogin/Login.css"> <!-- Agregue el CSS del login prototipo  -->
+    <script type="module" src="/CSS/PrototipoLogin/login.js"></script> <!-- Agregue el JS del login  prototipo-->
+
     <title>PuraMar</title>
 </head>
 <body>
@@ -19,7 +22,7 @@
             <a href="NuestroMenu.html">Nuestro Menú</a>
             <a href="Contactenos.html">Contáctenos</a>
             <div class="botonn">
-                <a href="#" class="boton">
+                <a href="/CSS/PrototipoLogin/login.html" class="boton">
                     <img src="/Img/Icon/IconTenedores.png" alt="Orden en Línea"> Orden en Línea
                 </a>
             </div>
@@ -50,6 +53,31 @@
         </div>
     </header>
     
+    <!-- ventana emergente del  login  solo se le coloco al index por que es de prueba ----------------------------------------->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="logo-container">
+                <img src="/Img/LogoPuraMar.png" alt="Logo PuraMar">
+            </div>
+            <h2>Ingresa tu Correo y Contraseña</h2>
+            <form>
+                <input type="text" id="username" name="username" placeholder="Correo" required>
+                <input type="password" id="password" name="password" placeholder="Contraseña" required>
+                <button type="submit">Iniciar</button>
+                <button type="button" class="register-button">Registrarse</button>
+                <a href="#" class="forgot-password">¿Olvidaste tu contraseña?</a>
+            </form>
+            <div class="google-login">
+                <button type="button" class="google-button">
+                    <img src="/Img/Icon/icicogoogle.png" alt="Google Icon">
+                    Ingresar con Google
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- aca termina la ventana emergente del login  ----------------------------->
     
 
     <main>

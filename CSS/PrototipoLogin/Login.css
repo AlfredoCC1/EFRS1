@@ -1,0 +1,108 @@
+/* Estilo para el modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1001;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Estilo para el contenido del modal */
+.modal-content {
+    background-color: white;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    border-radius: 8px;
+    text-align: center;
+}
+
+/* Estilo para el logo */
+.logo-container img {
+    width: 80px;
+    margin-bottom: 10px;
+}
+
+/* Estilo para los inputs */
+form input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Estilo para el botón de ingresar */
+form button[type="submit"] {
+    width: 80%;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/* Estilo para el botón de registrarse */
+.register-button {
+    background-color: white;
+    color: black;
+    border: none;
+    margin-top: 10px;
+    width: 100px;
+    cursor: pointer;
+}
+
+/* Estilo para el enlace de "Olvidaste tu contraseña" */
+.forgot-password {
+    display: block;
+    margin-top: 10px;
+    color: #00bfa5;
+    text-decoration: none;
+}
+
+/* Estilo para el botón de Google */
+.google-login {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.google-button {
+    
+    width: 80%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid #ccc;
+    
+    padding: 10px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.google-button img {
+    width: 20px;
+    margin-right: 10px;
+}
+
+/* Estilo para el botón de cerrar */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover {
+    color: black;
+}
+
+
