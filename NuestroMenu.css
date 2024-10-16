@@ -33,7 +33,135 @@
 .imagencarta img {
     position: relative;
     margin-top: 70px;
+    height: auto;
+    width: auto;
     margin-bottom: 70px;
     z-index: 0;
 }
 
+
+
+/* de aca para abajo es el section  imagen descripcion */
+.Menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-left: 18%;
+    margin-right: 18%;
+    
+}
+.Mune ,p ,button{
+    font-family: 'Brush Script MT', cursive;
+}
+.lineapura{
+    height: 5px;
+    width:250px;
+    background-color: #ff8210 ;
+    margin-top: -30px;
+}
+.img img{
+    height: 80%;
+    width: 80%;
+    margin-left: 30%;
+}
+.txt{
+    display: grid;
+    gap: 10px;
+}
+.txt button{
+    width: 40%;
+    height: 50px;
+    border: none;
+    background-color: #ff8210;
+    font-size: 30px;
+}
+
+.textorelle {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif !important;
+    
+}
+.fotos{
+    display: flex;
+    gap: 15px;
+    
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.fotos img{
+    width: 32.8%;
+    height: 20%;
+}
+.menu{
+    color: #38B6FF;
+    font-size: 40px;
+}
+.Puramar{
+    color: #38B6FF;
+    font-size: 70px;
+}
+/*#38B6FF  celeste   naranja #ff8210 */
+
+
+.encuentra{
+    
+    margin-left: 15%;
+    margin-right: 15%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+
+    
+}
+.contenido{
+    
+    text-align: center;
+    
+}
+.Encuentratu{
+    color: #ff8210;
+    font-size: 30px;
+}
+.Ubicacion{
+    font-size: 50px;
+}
+.Frescura{
+    font-size: 25px;
+}
+
+.conten{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.linea9{
+  height: 6px;
+  width: 550px;
+  background-color: #ff8210;
+}
+.linea10{
+    height: 6px;
+    width: 550px;
+    background-color: #ff8210;
+}
+.conten img{
+  height: 100px;
+  width: 100px;
+}
+.descubremas{
+    text-align: center;
+    
+}
+.descubremas button{
+    height: 60px;
+    width: 300px;
+    border: none;
+    background-color: #ff8210;
+    font-size: 40px;
+    color: white;
+
+}
+section{
+    margin-bottom: 40px;
+}
