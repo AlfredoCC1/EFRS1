@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="NuestroMenu.css">
     <link rel="stylesheet" href="footer.css">
     <script src="Header/Header.js"></script>
+    <link rel="stylesheet" href="CSS/PrototipoLogin/Login.css"> <!-- Agregue el CSS del login prototipo  -->
+    <script type="module" src="CSS/PrototipoLogin/login.js"></script> <!-- Agregue el JS del login  prototipo-->
+    <link rel="shortcut icon" href="Img/LogoPuraMar.png">
     <title>PuraMar</title>
 </head>
 <body>
@@ -20,25 +23,29 @@
             <a href="NuestroMenu.html">Nuestro Menú</a>
             <a href="Contactenos.html">Contáctenos</a>
             <div class="botonn">
-                <a href="#" class="boton">
+                <a href="CSS/PrototipoLogin/login.html" class="boton">
                     <img src="Img/Icon/IconTenedores.png" alt="Orden en Línea"> Orden en Línea
                 </a>
             </div>
         </nav>
+
         <!-- Contenedor principal dividido en tres columnas -->
         <div class="contenido-flex">
             <!-- Logo grande a la izquierda -->
             <div class="logo-contenedor">
                 <img class="logo-principal" src="Img/LogoPuraMar.png" alt="Logo Principal">
             </div>
+            
             <!-- Texto en el centro -->
             <div class="texto">
+           
                 <p>Cocina, Sabor y Tradición</p>
                 <button>
                     <a href="#">Nuestro Menú</a>
                 </button>
             </div>
-            <!-- Íconos sociales a la derecha .-->
+
+            <!-- Íconos sociales a la derecha -->
             <div class="icons">
                 <a href="#"><img src="Img/Icon/IconFacebook.png" alt="Facebook"></a>
                 <a href="#"><img src="Img/Icon/IconInstagram.png" alt="Instagram"></a>
@@ -47,6 +54,31 @@
         </div>
     </header>
     
+    <!-- ventana emergente del  login  que es de prueba ----------------------------------------->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="logo-container">
+                <img src="Img/LogoPuraMar.png" alt="Logo PuraMar">
+            </div>
+            <h2>Ingresa tu Correo y Contraseña</h2>
+            <form>
+                <input type="text" id="username" name="username" placeholder="Correo" required>
+                <input type="password" id="password" name="password" placeholder="Contraseña" required>
+                <button type="submit">Iniciar</button>
+                <button type="button" class="register-button">Registrarse</button>
+                <a href="#" class="forgot-password">¿Olvidaste tu contraseña?</a>
+            </form>
+            <div class="google-login">
+                <button type="button" class="google-button">
+                    <img src="Img/Icon/icicogoogle.png" alt="Google Icon">
+                    Ingresar con Google
+                </button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- aca termina la ventana emergente del login  ----------------------------->
     <main>
         <div class="partes">
             
